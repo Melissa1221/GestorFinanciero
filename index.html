@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor Financiero</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" class = "logo">BudgetBoost</a>
+        <h1 class="bienvenido-nombre">Bienvenido Usuario</h1>
+    </header>
+
+    <section class = "principal" id = "home">
+        <div class="saldo">
+            <div class = "saldo-actual">
+                <h1>Saldo actual</h1>
+            </div>
+            <div class="monto">
+                <h1>$500</h1>
+            </div>
+        </div>
+
+
+        <div class="ultimos-movimientos">
+            <h1 class="titulo">Últimos movimientos</h1>
+            <div class="contenedor-movimientos">
+                <div class="movimientos">
+                    <p>Descripción</p>
+                    <span>$50</span>
+                </div>
+                <div class="movimientos">
+                    <p>Descripción</p>
+                    <span>$50</span>
+                </div>
+                <div class="movimientos">
+                    <p>Descripción</p>
+                    <span>$50</span>
+                </div>
+                <a href="">Ver más</a>
+            </div>
+   
+        </div>
+
+        <div class="ingresos-gastos">
+            <div class="gastos">
+                <div class="gasto">
+                    <h1>Gasto</h1>
+                    <button class="boton" id="+">+</button>
+                </div>
+                <div class="input-gastos">
+                    <div class="row">
+                        <form action="">
+                            <input type="number" placeholder="Cantidad: " class="box">
+                            <input type="text" placeholder="Descripción: " class="box">
+                            <input type="submit" value="Agregar" class="boton">
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="ingresos">
+                <div class="ingreso">
+                    <h1>Ingreso</h1>
+                    <button class="boton" id="+">+</button>
+                </div>
+                <div class="input-ingresos">
+                    <div class="row">
+                        <form action="">
+                            <input type="number" placeholder="Cantidad: " class="box">
+                            <input type="text" placeholder="Descripción: " class="box">
+                            <input type="submit" value="Agregar" class="boton">
+                        </form>
+                    </div>
+                    
+                </div>
+            
+        </div>
+
+    </section>
+    
+</body>
+</html>
