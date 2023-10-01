@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestor Financiero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Galada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 
 </head>
 <body>
@@ -48,7 +52,7 @@
             <div class="gastos">
                 <div class="gasto">
                     <h1>Gasto</h1>
-                    <button class="boton" id="+">+</button>
+                    <button class="boton" id="+g">+</button>
                 </div>
                 <div class="input-gastos">
                     <div class="row">
@@ -65,9 +69,9 @@
             <div class="ingresos">
                 <div class="ingreso">
                     <h1>Ingreso</h1>
-                    <button class="boton" id="+">+</button>
+                    <button class="boton" id="+i">+</button>
                 </div>
-                <div class="input-ingresos">
+                <div class="input-ingresos" id="input-ingresos">
                     <div class="row">
                         <form action="">
                             <input type="number" placeholder="Cantidad: " class="box">
@@ -81,6 +85,6 @@
         </div>
 
     </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>

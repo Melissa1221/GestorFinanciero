@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     border: none;
     text-decoration: none;
@@ -53,9 +53,12 @@ header .logo{
     -webkit-background-clip: text; 
     background-clip: text;
     color: transparent; 
-    font-size: 3rem;
+    font-size:4rem;
     font-weight: bold; 
     margin-right: 3rem;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Galada', cursive;
+    padding: auto;
 }
 
 header .bienvenido-nombre{
@@ -63,7 +66,7 @@ header .bienvenido-nombre{
 }
 
 .principal{
-    margin-top: 6rem;
+    margin-top: 9rem;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -80,7 +83,7 @@ header .bienvenido-nombre{
     background-color: #fff;
     width: 100%;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     height: 15rem;
     display: block;
@@ -107,7 +110,7 @@ header .bienvenido-nombre{
 .principal .ultimos-movimientos .titulo{
     background-color: #fff;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
@@ -119,7 +122,7 @@ header .bienvenido-nombre{
 .principal .ultimos-movimientos .contenedor-movimientos{
     background-color: #fff;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     font-size: 1.5rem;
     text-align: center;
@@ -129,7 +132,7 @@ header .bienvenido-nombre{
 .principal .ultimos-movimientos .contenedor-movimientos .movimientos{
     background-color: #fff;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
     font-size: 1.5rem;
     margin: 0.5rem;
@@ -143,9 +146,9 @@ header .bienvenido-nombre{
     font-weight: bolder;
 }
 .principal .ultimos-movimientos .contenedor-movimientos a{
-    font-size: 1rem;
+    font-size: 1.4rem;
     color : #333;
-    padding: 1rem;
+    padding: 1.5rem;
     font-weight: bold;
     
 }
@@ -160,7 +163,7 @@ header .bienvenido-nombre{
     width: 100%;
     position: relative;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     height: 10rem;
     text-align: center;
@@ -177,7 +180,7 @@ header .bienvenido-nombre{
     width: 100%;
     position: relative;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     
     display: block;
@@ -208,7 +211,7 @@ header .bienvenido-nombre{
     width: 100%;
     position: relative;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     height: 10rem;
     display: grid;
@@ -223,10 +226,10 @@ header .bienvenido-nombre{
     width: 100%;
     position: relative;
     border: 1.5rem solid #fff;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     
-    display: block;
+    
     place-items: center;
     text-align: center;
     margin-bottom: 2rem;
@@ -236,13 +239,18 @@ header .bienvenido-nombre{
 
 .principal .ingresos-gastos .ingresos .input-ingresos .row form .box{
     border: 0.1rem solid #eee;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     width: 10rem;
     padding: 1rem; 
 }
 
-.principal .ingresos-gastos .ingresos .input-ingresoss .row form .box:focus{
+.principal .ingresos-gastos .ingresos .input-ingresos .row form .box:focus{
     border-color:#3ec429 ;
 }
 
 /*despliegue del form end*/
+
+
+
+
+
